@@ -130,5 +130,5 @@ All plots are saved in the `plots/` folder.
 VOIS for Tech Program on Conversational Data Analytics with LLMs
 
 - GitHub: [SonuKumar7065](https://github.com/SonuKumar7065) 
-- Contact: sonukumar7065@gmail.com
+- Contact: sonukumarsk5168@gmail.com
 
