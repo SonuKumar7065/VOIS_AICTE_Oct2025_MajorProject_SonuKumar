@@ -1,4 +1,4 @@
-# Netflix Dataset Analysis 
+# Netflix Dataset Analysis
 
 ![Netflix Logo](https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg)
 
@@ -19,14 +19,14 @@ This project analyzes the Netflix dataset to uncover trends in content releases,
 ---
 
 ## Dataset
-The dataset used in this project contains Netflix content information, including:
+The dataset contains Netflix content information, including:
 
 - **Title** – Name of the content  
 - **Category** – Movie or TV Show  
 - **Director** – Director(s) of the content  
 - **Cast** – Main cast  
 - **Country** – Country of production  
-- **Date Added / Release Date** – When the content was added  
+- **Release Date** – When the content was added  
 - **Rating** – Age rating of the content  
 - **Duration** – Duration of the content  
 - **Type** – Genre or content type  
@@ -57,21 +57,37 @@ The dataset used in this project contains Netflix content information, including
 ---
 
 ## Visualizations
-All plots are saved in the `plots/` folder. Key visualizations include:
+All plots are saved in the `plots/` folder.  
 
-1. **Movies vs TV Shows Released per Year**  
-2. **Top 10 Genres on Netflix**  
-3. **Stacked Bar – Movies vs TV Shows by Country (Top 10)**  
-4. **Interactive Choropleth – Netflix Content by Country**  
-5. **Trends of Popular Genres Over Time**  
-6. **Content Release by Month & Day of Week**  
-7. **WordCloud – Most Frequent Cast Members**  
-8. **Correlation Matrix – Duration vs Year**  
-9. **Distribution of Content by Age Group**  
+### 1️⃣ Movies vs TV Shows Released per Year
+![Movies vs TV Shows](plots/movies_vs_tvshows_per_year.png)
 
-> Example Plot:
-
+### 2️⃣ Top 10 Genres on Netflix
 ![Top Genres](plots/top_10_genres.png)
+
+### 3️⃣ Stacked Bar – Movies vs TV Shows by Country (Top 10)
+![Stacked Bar by Country](plots/movies_tvshows_by_country.png)
+
+### 4️⃣ Interactive Choropleth – Netflix Content by Country
+> Choropleth map saved as HTML: `plots/netflix_country_choropleth.html`  
+
+### 5️⃣ Trends of Popular Genres Over Time
+![Popular Genres Trend](plots/popular_genres_trend.png)
+
+### 6️⃣ Content Release by Month
+![Release by Month](plots/content_release_by_month.png)
+
+### 7️⃣ Content Release by Day of Week
+![Release by Day](plots/content_release_by_weekday.png)
+
+### 8️⃣ WordCloud – Most Frequent Cast Members
+![WordCloud](plots/wordcloud_top_cast.png)
+
+### 9️⃣ Correlation Matrix – Duration vs Year
+![Correlation Matrix](plots/correlation_matrix.png)
+
+### 🔟 Distribution of Content by Age Group
+![Age Group Distribution](plots/age_group_distribution.png)
 
 ---
 
@@ -89,10 +105,27 @@ All plots are saved in the `plots/` folder. Key visualizations include:
    ```bash
    python Netflix_Analysis.py
 
-##Author
+## 📂 Folder Structure
+1. Content Available
+    ```bash
+    Netflix-Data-Analysis/
+    │
+    ├── Netflix_Analysis.py          # Main analysis script
+    ├── Netflix Dataset.csv          # Dataset
+    ├── plots/                       # Saved visualizations
+    │   ├── movies_vs_tvshows_per_year.png
+    │   ├── top_10_genres.png
+    │   ├── movies_tvshows_by_country.png
+    │   ├── popular_genres_trend.png
+    │   ├── content_release_by_month.png
+    │   ├── content_release_by_weekday.png
+    │   ├── wordcloud_top_cast.png
+    │   ├── correlation_matrix.png
+    │   └── age_group_distribution.png
+    ├── README.md                    # Project documentation
+
+##👨‍💻 Author 
 Sonu Kumar
-GitHub: https://github.com/SonuKumar7065
-Contact: sonukumar7065@gmail.com
-
-
+- GitHub: https://github.com/SonuKumar7065
+- Contact: sonukumar7065@gmail.com
 
