@@ -110,9 +110,9 @@ All plots are saved in the `plots/` folder.
     ```bash
     Netflix-Data-Analysis/
     │
-    ├── Netflix_Analysis.py          # Main analysis script
-    ├── Netflix Dataset.csv          # Dataset
-    ├── plots/                       # Saved visualizations
+    ├── Netflix_Data_Analysis.ipynb   # Main analysis script
+    ├── Netflix Dataset.csv           # Dataset
+    ├── plots/                        # Saved visualizations
     │   ├── movies_vs_tvshows_per_year.png
     │   ├── top_10_genres.png
     │   ├── movies_tvshows_by_country.png
@@ -129,6 +129,6 @@ All plots are saved in the `plots/` folder.
 **Sonu Kumar**  
 VOIS for Tech Program on Conversational Data Analytics with LLMs
 
-GitHub: [SonuKumar7065](https://github.com/SonuKumar7065) 
-Contact: sonukumar7065@gmail.com
+- GitHub: [SonuKumar7065](https://github.com/SonuKumar7065) 
+- Contact: sonukumar7065@gmail.com
 
