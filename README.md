@@ -8,13 +8,30 @@ This project analyzes the Netflix dataset to uncover trends in content releases,
 ---
 
 ## Table of Contents
-- [Dataset](#dataset)  
+- [Technologies Used](#technologies--used)
+- [Dataset](#dataset)
 - [Features](#features)  
 - [Data Cleaning & Feature Engineering](#data-cleaning--feature-engineering)  
 - [Visualizations](#visualizations)  
 - [Installation & Usage](#installation--usage)  
 - [Folder Structure](#folder-structure)  
 - [Author](#author)
+
+---
+
+## 🛠️ Technologies Used
+
+This project uses the following tools and technologies:
+
+| Category | Technologies |
+|-----------|---------------|
+| **Programming Language** | Python |
+| **Data Handling & Analysis** | Pandas, NumPy |
+| **Data Visualization** | Matplotlib, Seaborn, Plotly |
+| **Text Visualization** | WordCloud |
+| **Notebook Environment** | Google Colab / Jupyter Notebook |
+| **Version Control** | Git & GitHub |
+| **IDE / Editor** | Visual Studio Code |
 
 ---
 
