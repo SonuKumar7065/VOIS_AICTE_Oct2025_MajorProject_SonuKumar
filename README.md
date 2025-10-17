@@ -101,12 +101,12 @@ All plots are saved in the `plots/` folder.
 3. Install required Python libraries:
     ```bash
     pip install pandas numpy matplotlib seaborn plotly wordcloud
-4. Run the analysis script (or Jupyter Notebook):
+4. Run the analysis script (Colab/Jupyter Notebook):
    ```bash
-   python Netflix_Analysis.py
+   python Netflix_Data_Analysis.ipynb
 
 ## 📂 Folder Structure
-1. Content Available
+- Content Available
     ```bash
     Netflix-Data-Analysis/
     │
@@ -124,8 +124,11 @@ All plots are saved in the `plots/` folder.
     │   └── age_group_distribution.png
     ├── README.md                    # Project documentation
 
-##👨‍💻 Author 
-Sonu Kumar
-- GitHub: https://github.com/SonuKumar7065
-- Contact: sonukumar7065@gmail.com
+## 👨‍💻 Author  
+
+**Sonu Kumar**  
+VOIS for Tech Program on Conversational Data Analytics with LLMs
+
+GitHub: [SonuKumar7065](https://github.com/SonuKumar7065) 
+Contact: sonukumar7065@gmail.com
 
